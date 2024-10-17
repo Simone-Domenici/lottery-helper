@@ -24,3 +24,26 @@
     -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
 }
 
+.results:first-child {
+    filter: hue-rotate(-120deg);
+}
+
+.results:nth-child(2) {
+    filter: hue-rotate(60deg);
+}
+
+.results:nth-child(3) {
+    filter: hue-rotate(30deg);
+}
+
+.results:nth-child(4) {
+    filter: hue-rotate(0deg);
+}
+
+.results:nth-child(5) {
+    filter: hue-rotate(-30deg);
+}
+
+.results:last-child{
+    filter: hue-rotate(-60deg);
+}
