@@ -16,6 +16,7 @@
 
 .results:hover {
     background-color: #39ff14;
+    cursor: pointer;
     color: #050801;
     box-shadow: 0 0 5px #39ff14,
                 0 0 25px #39ff14,
@@ -143,6 +144,23 @@
     0 0 25px #39ff14,
     0 0 50px #39ff14,
     0 0 200px #39ff14;
+    color: #050801;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+}
+
+#remove__numbers__btn {
+    color: #FF3131;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#remove__numbers__btn:hover {
+    background-color: #FF3131;
+    box-shadow: 0 0 5px #FF3131,
+    0 0 25px #FF3131,
+    0 0 50px #FF3131,
+    0 0 200px #FF3131;
     color: #050801;
     -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
 }
