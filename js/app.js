@@ -1,5 +1,13 @@
 // let luckyNumbers = parseInt(prompt('Do you have any lucky numbers?'))
 
-const pool = [...Array(90).keys()].map(i => i + 1)
+let chosenNumbers = [11,23]
 
-console.log(pool)
+while (chosenNumbers.length < 6) {
+    extractedNumber = Math.floor(Math.random() * 90 + 1)
+    if (!chosenNumbers.includes(extractedNumber)) {
+        chosenNumbers.push(extractedNumber)
+    }
+}
+console.log(chosenNumbers)
+
+
