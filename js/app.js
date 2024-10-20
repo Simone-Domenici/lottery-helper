@@ -13,8 +13,16 @@ function newRoll(initialNumbers) {
         }
     }
     console.log(chosenNumbers)
+
+    const resultsElements = document.querySelectorAll('.results');
+    for (let i = 0; i < chosenNumbers.length; i++) {
+        resultsElements[i].textContent = chosenNumbers[i];
+    }
+
 }
 
 const getStartedBtn = document.getElementById('get__started__btn')
 
 getStartedBtn.addEventListener('click', () => newRoll(initialNumbers))
+
+const resultsElement = document.getElementById('results')
