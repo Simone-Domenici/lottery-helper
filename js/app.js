@@ -1,6 +1,6 @@
 // let luckyNumbers = parseInt(prompt('Do you have any lucky numbers?'))
 
-const initialNumbers = [11,23]
+let initialNumbers = [11,23]
 
 let chosenNumbers = [initialNumbers]
 
@@ -26,3 +26,7 @@ const getStartedBtn = document.getElementById('get__started__btn')
 getStartedBtn.addEventListener('click', () => newRoll(initialNumbers))
 
 const resultsElement = document.getElementById('results')
+
+const removeNumbersBtn = document.getElementById('remove__numbers__btn')
+
+removeNumbersBtn.addEventListener('click', () => initialNumbers = [])
