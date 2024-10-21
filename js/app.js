@@ -14,7 +14,7 @@ function newRoll(initialNumbers) {
     }
     console.log(chosenNumbers)
 
-    const resultsElements = document.querySelectorAll('.results');
+    const resultsElements = document.querySelectorAll('.results p');
     for (let i = 0; i < chosenNumbers.length; i++) {
         resultsElements[i].textContent = chosenNumbers[i];
     }
