@@ -7,11 +7,24 @@
     font-weight: 400;
 }
 
-/* titolo {
+.neon-title span {
     font-family: "Neonderthaw", cursive;
     font-weight: 600;
     font-style: normal;
-} */
+    font-size: 6rem;
+}
+
+.tl-1 {
+    color: #FF3131;
+}
+
+.tl-2 {
+    color:  #39ff14;
+}
+
+.tl-3 {
+    color: #2323ff;
+}
 
 .wrapper {
     background-color: #000;
