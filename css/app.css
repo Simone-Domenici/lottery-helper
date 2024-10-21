@@ -39,7 +39,7 @@
     font-weight: bold;
     transition: 0.5s;
     overflow: hidden;
-    margin-right: 70px;
+    margin: 35px;
 }
 
 .results:hover {
