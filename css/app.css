@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
 
 * {
     font-family: "Tilt Neon", sans-serif;
@@ -8,7 +9,7 @@
 }
 
 .neon-title span {
-    font-family: "Neonderthaw", cursive;
+    font-family: "Bungee Shade", sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 6rem;
@@ -191,4 +192,29 @@
     0 0 200px #FF3131;
     color: #050801;
     -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+}
+
+
+/**
+    ANIMAZIONE
+**/
+
+.test {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    background-color: red;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    display: block;
+    opacity: 0;
+}
+
+.test.show-popup {
+    /* display: block; */
+    transition: all 2s ease-in;
+    opacity: 1;
+    transform: translate(-50%, 5%);
+    top: 10px;
 }
